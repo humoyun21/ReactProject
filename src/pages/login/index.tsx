@@ -31,7 +31,7 @@ const index = () => {
 
     try {
       const res = await axios.post(
-        "http://45.138.158.252:3000/auth/login",
+        "http://45.138.158.252:3000/auth/logins",
         userData
       );
       //  console.log(res);
